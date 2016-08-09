@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Wow</string>
+    <string name="title_activity_login"> login </string>
+    <string name="developer">Dikaros</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email"> mobile phone number </string>
+    <string name="prompt_password"> password </string>
+    <string name="action_sign_in"> login </string>
+    <string name="action_regist"> register </string>
+    <string name="action_sign_in_short"> login </string>
+    <string name="error_invalid_email"> phone number is not a legitimate </string>
+    <string name="error_invalid_password"> password is too short </string>
+    <string name="error_incorrect_password"> password error </string>
+    <string name="error_field_required"> cannot be empty </string>
+    <string name="permission_rationale"> "Contacts permissions are needed for providing email Completions"</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="item_album"> My album </string>
+    <string name="item_video"> My Video </string>
+    <string name="item_music"> My Music </string>
+    <string name="item_share"> share </string>
+    <string name="item_send"> send </string>
+    <string name="item_manage"> operation </string>
+    <string name="item_setting"> settings </string>
+    <string name="item_log_out"> log out </string>
+    <string name="send"> send </string>
+    <string name="get_confirm"> get verification code </string>
+    <string name="confirm_code"> verification code </string>
+    <string name="hover_audio"> long by recording </string>
+    <string name="cell_message_default"> this is a message </string>
+    <string name="user_name"> user name </string>
+    <string name="personal_message"> signature </string>
+    <string name="friend_list">friend_list</string>
+    <string name="not_set_sign">not set sign</string>
+    <string name="press_play_voice">press to play voice message</string>
+    <string name="add_or_not">are you sure to add</string>
+    <string name="as_your_friend">to your friend list</string>
+    <string name="action_ok">ok</string>
+    <string name="already_friend">you are already been friends</string>
+    <string name="add_friend_success">add success</string>
+    <string name="scan_qr_code">please scan QR code</string>
+    <string name="share">share</string>
+    <string name="share_to">share to</string>
+    <string name="notification">notification</string>
+    <string name="about">about</string>
+    <string name="version">version</string>
+
+
+</resources>

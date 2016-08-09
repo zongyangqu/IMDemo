@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/srl_friend"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dikaros.wow.ShowActivity"
+    tools:showIn="@layout/app_bar_show">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcv_friend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rl_blank"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_qr_code"
+                android:layout_width="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:id="@+id/tv_qr_title"
+                android:layout_centerHorizontal="true"
+                android:text="@string/please_scan_qrcode"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_marginTop="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_add_friend"
+                android:layout_width="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/add_friend"
+                android:drawableRight="@drawable/ic_person_add_black_24dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="80dp"
+                android:drawablePadding="5dp"
+                android:textSize="16sp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_invite_friend"
+                android:layout_above="@id/btn_add_friend"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20dp"
+                android:drawablePadding="5dp"
+                android:text="@string/invite_friend"
+                android:drawableRight="@drawable/ic_face_black_24dp"
+                android:layout_marginRight="50dp"
+                android:textSize="16sp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/notification">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notification_stat"
+            android:title="开启通知"
+            ></SwitchPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about">
+        <!-- 做简单显示，可以不指定key -->
+        <Preference
+            android:summary="copyright©Dikaros 2015-2016"
+            android:title="Wow" />
+        <Preference
+            android:summary="1.0"
+            android:title="@string/version" />
+    </PreferenceCategory>
+</PreferenceScreen>

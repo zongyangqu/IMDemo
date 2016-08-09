@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="社交">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/item_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/item_send" />
+        </menu>
+    </item>
+
+    <item android:title="@string/item_manage">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/item_setting" />
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/item_log_out"
+                ></item>
+        </menu>
+    </item>
+
+</menu>

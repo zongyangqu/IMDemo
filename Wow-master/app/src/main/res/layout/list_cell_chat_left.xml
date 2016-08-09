@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@color/llgray"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_friend_lite"
+        android:layout_width="50dp"
+        android:src="@color/colorPrimary"
+        android:layout_margin="16dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/llgray"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_msg_left"
+            android:padding="10dp"
+            android:text="@string/cell_message_default"
+            android:background="@color/white"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:id="@+id/tv_msg_left_image"
+            android:layout_width="match_parent"
+            android:layout_marginRight="70dp"
+            android:background="@color/white"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_msg_left_voice"
+            android:layout_width="wrap_content"
+            android:text="@string/press_play_voice"
+            android:background="@drawable/bg_send_button2"
+            android:textColor="@color/white"
+            android:paddingLeft="5dp"
+            android:visibility="gone"
+            android:paddingRight="5dp"
+            android:layout_gravity="left"
+            android:drawableLeft="@drawable/ic_settings_voice_black_24dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

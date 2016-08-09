@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Wow</string>
+    <string name="title_activity_login">登录</string>
+
+    <string name="developer">Dikaros</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">手机号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_regist">注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">电话号码不合法</string>
+    <string name="error_invalid_password">密码太短了</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">不能为空</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_show">ShowActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="item_album">我的相册</string>
+    <string name="item_video">我的视频</string>
+    <string name="item_music">我的音乐</string>
+    <string name="item_share">分享</string>
+    <string name="item_send">发送</string>
+    <string name="item_manage">操作</string>
+    <string name="item_setting">设置</string>
+    <string name="item_log_out">退出登录</string>
+    <string name="send">发送</string>
+    <string name="get_confirm">获取验证码</string>
+    <string name="confirm_code">验证码</string>
+    <string name="hover_audio">长按录音</string>
+    <string name="cell_message_default">这是一条信息</string>
+    <string name="user_name">用户名</string>
+    <string name="personal_message">个性签名</string>
+    <string name="press_play_voice">点击播放语音消息</string>
+    <string name="add_friend">增加好友</string>
+    <string name="invite_friend">邀请好友</string>
+    <string name="please_scan_qrcode">请您的好友扫描以下的二维码</string>
+    <string name="add_or_not">是否添加</string>
+    <string name="as_your_friend">为你的好友</string>
+    <string name="action_ok">确定</string>
+    <string name="action_cancel">取消</string>
+    <string name="already_friend">你们已经是好友了</string>
+    <string name="add_friend_success">好友添加成功</string>
+    <string name="add_friend_faild">增加好友失败</string>
+    <string name="scan_qr_code">请扫描二维码</string>
+    <string name="share">分享</string>
+    <string name="this_is_an_im_app">介绍一个即时通讯app</string>
+    <string name="share_to">分享到</string>
+    <string name="notification">通知</string>
+    <string name="about">关于</string>
+    <string name="version">版本号</string>
+</resources>

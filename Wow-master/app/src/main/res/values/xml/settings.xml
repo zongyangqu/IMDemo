@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="分类一">
+        <SwitchPreference android:icon="@drawable/ic_settings_24dp" android:key="wifi"
+            android:summaryOff="禁用" android:summaryOn="启用" android:title="WIFI" />
+        <CheckBoxPreference android:icon="@drawable/ic_settings_24dp" android:key="wifi2"
+            android:summaryOff="禁用" android:summaryOn="启用" android:title="WIFI2" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="分类二">
+        <ListPreference android:entries="@array/update_rate" android:entryValues="@array/update_rate_value"
+            android:key="update_rate" android:summary="默认"
+            android:title="数据更新频率" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="分类三">
+        <EditTextPreference android:dependency="wifi" android:key="wifi_name" android:summary="默认值"
+            android:title="WIFI Name" />
+        <!-- 做简单显示，可以不指定key -->
+        <Preference android:summary="XXX 工作室" android:title="关于" />
+        <Preference android:enabled="false" android:selectable="false" android:summary="1.0"
+            android:title="版本号" />
+    </PreferenceCategory>
+</PreferenceScreen>

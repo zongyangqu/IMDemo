@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Wow</string>
+    <string name="title_activity_login"> ログイン </string>
+    <string name="developer">Dikaros</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email"> 携帯番号 </string>
+    <string name="prompt_password"> パスワード </string>
+    <string name="action_sign_in"> ログイン </string>
+    <string name="action_regist"> 登録 </string>
+    <string name="action_sign_in_short"> ログイン </string>
+    <string name="error_invalid_email"> 数の合法的ない </string>
+    <string name="error_invalid_password"> パスワードは短すぎます </string>
+    <string name="error_incorrect_password"> パスワードエラー </string>
+    <string name="error_field_required"> 空にはできません。 </string>
+    <string name="permission_rationale"> "Contacts permissions are needed for providing email Completions"</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">設定</string>
+    <string name="item_album"> アルバム </string>
+    <string name="item_video"> ビデオ </string>
+    <string name="item_music"> 音楽 </string>
+    <string name="item_share"> シェア </string>
+    <string name="item_send"> 送る </string>
+    <string name="item_manage"> オペレーション</string>
+    <string name="item_setting"> シェア </string>
+    <string name="item_log_out"> ログアウト</string>
+    <string name="send"> 送る </string>
+    <string name="get_confirm"> 検証コードを取得する </string>
+    <string name="confirm_code"> 確認コード </string>
+    <string name="hover_audio"> ホバーによる記録 </string>
+    <string name="cell_message_default"> このメッセージ</string>
+    <string name="user_name"> ユーザ名 </string>
+    <string name="personal_message"> 署名 </string>
+    <string name="friend_list">友人リスト</string>
+    <string name="not_set_sign">署名しない</string>
+    <string name="add_or_not">是否添加</string>
+    <string name="as_your_friend">为你的好友</string>
+    <string name="action_ok">确定</string>
+    <string name="already_friend">你们已经是好友了</string>
+    <string name="add_friend_success">好友添加成功</string>
+    <string name="scan_qr_code">请扫描二维码</string>
+    <string name="share">分享</string>
+    <string name="share_to">分享到</string>
+    <string name="about">关于</string>
+    <string name="notification">通知</string>
+    <string name="version">版本号</string>
+
+
+</resources>
